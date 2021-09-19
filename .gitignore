@@ -1,0 +1,23 @@
+# Not-for-production files and directories
+archive/
+testing/
+lib/
+
+
+# Build system temporary files and directories
+Build/
+Debug/
+Release/
+x86/
+x64/
+out/
+.vs/
+sys/
+
+# CMake devmachine-specific config
+CMakeSettings.json
+
+# VS devmachine-specific config
+*.vcxproj.filters
+*.vcxproj.user
+
