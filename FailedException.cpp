@@ -13,8 +13,8 @@ __declspec(noinline) decltype(auto)
   char buffer[256];
   if (fn) {
     memcpy(buffer, fn(args...),
-           name->Length);  // Force insertion a __GSHandlerCheck() info
-                           // exception handler table
+           name->Length);  // Force insertion of __GSHandlerCheck() into
+                           // a compiler-generated exception handler table
   } else {
     throw Exception{};
   }
